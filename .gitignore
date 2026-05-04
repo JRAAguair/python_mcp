@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+python-dirty/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / local config
+.env
+.env.*
+!.env.example
+.mcphub/
+.mcphub
+.mcphub.json
+
+# Node / browser bridge
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Playwright
+playwright-report/
+test-results/
+.browser-data/
+
+# Logs / runtime files
+*.log
+*.sqlite
+*.db
+tmp/
+.temp/
+.cache/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
